@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Container */
+.container {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+/* Product Card Styling */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Add to Cart / Remove from Cart Button */
+.card .btn-primary,
+.card .btn-danger {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card .btn-primary:hover,
+.card .btn-danger:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Cart Styling */
+.cart {
+  margin-top: 30px;
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+}
+
+.cart .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart .btn-danger {
+  font-size: 0.85rem;
+  padding: 5px 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Adjustments */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .card-img-top {
+    max-height: 150px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .cart h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* Product Cards */
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    max-height: 120px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  /* Cart */
+  .cart h2 {
+    font-size: 1.2rem;
+  }
+
+  .cart .list-group-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart .btn-danger {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 0.85rem;
+  }
+}
