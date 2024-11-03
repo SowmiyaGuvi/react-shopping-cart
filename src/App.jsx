@@ -19,12 +19,12 @@ function App() {
   };
 
   const items = [
-    { id: 1, name: "Denim Shirt", price: 10.99, image: "assets/denim.png" },
-    { id: 2, name: "Casual Shirt", price: 12.99, image: "assets/casual.png" },
-    { id: 3, name: "T-Shirt", price: 12.99, image: "assets/t-shirt.png" },
-    { id: 4, name: "Kurti", price: 12.99, image: "assets/kurti.png" },
-    { id: 5, name: "Saree", price: 12.99, image: "assets/saree.png" },
-    { id: 6, name: "Slipper", price: 12.99, image: "assets/slipper.png" },
+    { id: 1, name: "Denim Shirt", price: 10.99, image: "src/assets/denim.png" },
+    { id: 2, name: "Casual Shirt", price: 12.99, image: "src/assets/casual.png" },
+    { id: 3, name: "T-Shirt", price: 12.99, image: "src/assets/t-shirt.png" },
+    { id: 4, name: "Kurti", price: 12.99, image: "src/assets/kurti.png" },
+    { id: 5, name: "Saree", price: 12.99, image: "src/assets/saree.png" },
+    { id: 6, name: "Slipper", price: 12.99, image: "src/assets/slipper.png" },
     // Add more items here
   ];
 
