@@ -5,6 +5,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import Cart from './components/Cart.jsx';
 import './App.css'
 import denim from './assets/denim.png';
+import casual from './assets/casual.png';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
   const items = [
     { id: 1, name: "Denim Shirt", price: 10.99, image: denim },
-    { id: 2, name: "Casual Shirt", price: 12.99, image: "src/assets/casual.png" },
+    { id: 2, name: "Casual Shirt", price: 12.99, image: casual},
     { id: 3, name: "T-Shirt", price: 12.99, image: "src/assets/t-shirt.png" },
     { id: 4, name: "Kurti", price: 12.99, image: "src/assets/kurti.png" },
     { id: 5, name: "Saree", price: 12.99, image: "src/assets/saree.png" },
