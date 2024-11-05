@@ -6,6 +6,11 @@ import Cart from './components/Cart.jsx';
 import './App.css'
 import denim from './assets/denim.png';
 import casual from './assets/casual.png';
+import tshirt from './assets/t-shirt.png';
+import kurti from './assets/kurti.png';
+import saree from './assets/saree.png';
+import slipper from './assets/slipper.png';
+
 
 
 function App() {
@@ -22,10 +27,10 @@ function App() {
   const items = [
     { id: 1, name: "Denim Shirt", price: 10.99, image: denim },
     { id: 2, name: "Casual Shirt", price: 12.99, image: casual},
-    { id: 3, name: "T-Shirt", price: 12.99, image: "src/assets/t-shirt.png" },
-    { id: 4, name: "Kurti", price: 12.99, image: "src/assets/kurti.png" },
-    { id: 5, name: "Saree", price: 12.99, image: "src/assets/saree.png" },
-    { id: 6, name: "Slipper", price: 12.99, image: "src/assets/slipper.png" },
+    { id: 3, name: "T-Shirt", price: 12.99, image: tshirt},
+    { id: 4, name: "Kurti", price: 12.99, image: kurti.png},
+    { id: 5, name: "Saree", price: 12.99, image: saree.png},
+    { id: 6, name: "Slipper", price: 12.99, image: slipper.png},
     // Add more items here
   ];
 
